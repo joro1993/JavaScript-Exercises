@@ -1,2 +1,3 @@
-# JavaScript-Exercises
-Exercise for JavaScript
+# Webdevelopment-Playground
+
+Playground for static websites with HTML5, CSS3 & JavaScript
