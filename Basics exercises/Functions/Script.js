@@ -6,3 +6,4 @@ btn.addEventListener("click", function(){
     var temp = inpt.toUpperCase();
     output.value = temp;
 });
+
