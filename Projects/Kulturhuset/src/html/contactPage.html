@@ -1,0 +1,50 @@
+<!--/ Jag hämtade en startmall med hjälp av ! - kommandot för att slippa skriva mallen själv.-->
+<!--Liknande kod som i dem andra html-dokumenten, men jag har nu lagt till ett kontakt-formulär-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "../style/main.css">    
+</head>
+<div class = "wrapper">
+  <header>
+    <h1 class="title">kulturhuset</h1>
+    <br>
+    <div class = "nav">
+      <nav>
+          <ul>
+              <li><a href = "../../index.html">Hem</a></li>
+              <li><a href = "aboutUs.html">Om kulturhuset</a></li>
+              <li><a href = "contactPage.html">Kontakt</a></li>
+          </ul>
+      </nav>
+  </div>
+  </header>
+<body> 
+    <div class="main-form-content">
+          <h2>Kontakta oss</h2>
+        <div class="row">
+          <div class="column">
+            <form>
+              <p class="form-class">Förnamn</p>
+              <input type="text" id="firstName" name="firstname" placeholder="Förnamn">
+              <p class="form-class">Efternamn</p>
+              <input type="text" id="lastName" name="lastname" placeholder="Efternamn">
+              <p class="form-class">Meddelande</p>
+              <textarea class="text-area" placeholder="Vänligen skriv" style="height: 170px" ></textarea>
+              <br>
+              <br>
+              <button onclick = "location.href= 'thanks.html'" type = 'button' >Skicka</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    <footer>
+        <p>Nermin Festa, Webbutveckling 1</p>
+        <p id = "clockWork"></p>
+    </footer>
+</div>
+<script src = "../script/clock.js"></script>
+</body>
+</html>

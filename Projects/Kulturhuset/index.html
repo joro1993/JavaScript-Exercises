@@ -1,0 +1,49 @@
+<!--/ Jag hämtade en startmall med hjälp av !-kommandot-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Här hämtade jag en css fil som heter "main.css"-->
+    <link rel = "stylesheet" href = "src/style/main.css">
+</head>
+<!-- Jag satte in en div här sedan som är en kodblock. Genom att skriva div "wrapper" så binder jag ihop hemsidan som blir en form av ett kodblock-->
+<div class = "wrapper">
+    <header>
+        <h1 class="title">kulturhuset</h1>
+        <br>
+        <div class = "nav">
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Hem</a></li>
+                    <li><a href = "./src/html/aboutUs.html">Om kulturhuset</a></li>
+                    <li><a href = "./src/html/contactPage.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<body>
+    <!-- Jag har en div med ett nav som står för navigeringsfält.
+    Jag har en href som hämtar mina html filer.-->
+  <div class = "main-content">
+      <h3>Hem</h3>
+          <!-- här lade jag till section för att wrappa ihop relaterade elementer så man kan binda ihop koderna.
+    här lade jag även till article som texthost så att man kunde skriva information om kulturhuset-->
+      <section>
+        <article>
+            <p>Hej och välkommen till kulturhusets hemsida</p>
+        </article>
+    </section>
+  </div>
+    <!-- här lade jag en footer med två paragraftaggar. 
+    En med mitt namn och namnet på kursen
+    och en med id "clockWork" där jag visar klockan från javascript-->
+    <footer>
+        <p>Nermin Festa, Webbutveckling 1 infokomp</p>
+        <p id = "clockWork" class="clock"></p>
+    </footer>
+</div>
+<!-- här anropar jag på javascript med scripttaggen.-->
+<script src = "src/script/clock.js"></script>
+</body>
+</html>

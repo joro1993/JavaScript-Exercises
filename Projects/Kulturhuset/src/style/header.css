@@ -1,0 +1,35 @@
+.title{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 15px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: whitesmoke;
+    font-family: fantasy;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    display: block;
+    color: whitesmoke;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background: rgba(0,0,0,0.8);
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+}
